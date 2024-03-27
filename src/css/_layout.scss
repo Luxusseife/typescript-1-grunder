@@ -1,1 +1,54 @@
 @use 'base' as *;
+
+body {
+    font: 100% $font-stack;
+    background-color: $primary-color;
+    font-weight: bold;
+}
+
+header {
+    background-color: $secondary-color;
+    height: 85px;
+
+    h1 {
+        @include h1;
+    }
+}
+
+h2 {
+    text-align: left;
+}
+
+.form-container {
+    width: 300px;
+    border: 5px solid $secondary-color;
+    background-color: white;
+    line-height: 1.6;
+    margin: 2rem auto;
+    padding: 1rem;
+
+    #coursesForm {
+    
+        #courseCode, #courseName, #courseSyllabus {
+            width: 100%;
+            height: 1.5rem;
+        } 
+
+        #A, #B, #C {
+            cursor: pointer;
+        }
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    #saveCourse, #resetForm {
+        @include button;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+}

@@ -10,5 +10,8 @@ Det går med fördel att använda en automatiserad utvecklingsmiljö med Parcel 
 ### Processens olika delar
 
 1. Förbereda utvecklingsmiljön för momentet inklusive skapa samtliga mappar och filer som behövs.
+2. Skapa en favicon till applikationen.
+3. Skapa innehåll på index.html utifrån momentets uppgiftsbeskrivning.
+4. Sätta style på innehållet med SASS.
 
 #### _Skapad av Jenny Lind, jeli2308_.

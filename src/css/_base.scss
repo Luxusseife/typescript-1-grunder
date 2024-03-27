@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// Typsnitt.
+$font-stack: "Arial Bold", sans-serif;
+
+// Färger.
+$primary-color: #85ab93;
+$secondary-color: darken($primary-color, 30%);
+
+// Rubriker.
+@mixin h1 {
+    padding-top: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+// Knappar.
+@mixin button {
+    width: 4rem;
+    height: 1.5rem;
+    margin: 1rem;
+    background-color: darken($primary-color, 15%);
+    border: 1px solid $secondary-color;
+    box-shadow: 3px 3px 3px grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
