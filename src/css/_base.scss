@@ -31,3 +31,11 @@ $secondary-color: darken($primary-color, 30%);
     font-weight: bold;
     cursor: pointer;
 }
+
+@mixin container {
+    width: 300px;
+    border: 5px solid $secondary-color;
+    background-color: white;
+    line-height: 1.6;
+    padding: 1rem;
+}

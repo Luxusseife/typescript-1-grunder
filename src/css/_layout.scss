@@ -16,16 +16,12 @@ header {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
 }
 
 .form-container {
-    width: 300px;
-    border: 5px solid $secondary-color;
-    background-color: white;
-    line-height: 1.6;
+    @include container;
     margin: 2rem auto;
-    padding: 1rem;
 
     #coursesForm {
     
@@ -50,5 +46,14 @@ h2 {
         &:hover {
             background-color: $secondary-color;
         }
+    }
+}
+
+#list {
+    @include container;
+    margin: 0.5rem auto;
+    
+    ul {
+        list-style-type: none;
     }
 }
