@@ -57,3 +57,16 @@ h2 {
         list-style-type: none;
     }
 }
+
+.clear-button {
+    text-align: center;
+
+    #clear {
+        @include button;
+        width: 8rem;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+}
