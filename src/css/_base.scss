@@ -21,14 +21,15 @@ $secondary-color: darken($primary-color, 30%);
 
 // Knappar.
 @mixin button {
-    width: 4rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 2.5rem;
     margin: 1rem;
     background-color: darken($primary-color, 15%);
     border: 2px solid $secondary-color;
     box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.65);
     color: white;
     font-weight: bold;
+    font-size: 18px;
     cursor: pointer;
 }
 
