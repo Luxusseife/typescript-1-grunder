@@ -13,5 +13,11 @@ Det går med fördel att använda en automatiserad utvecklingsmiljö med Parcel 
 2. Skapa en favicon till applikationen.
 3. Skapa innehåll på index.html utifrån momentets uppgiftsbeskrivning.
 4. Sätta style på innehållet med SASS.
+5. Skapa funktionalitet för att lägga till en kurs.
+6. Skapa funktionalitet för att spara i localStorage samt ladda sparade kurser från localStorage.
+7. Skapa funktionalitet för att radera både kurslista och localStorage.
+8. Skapa funktionalitet för att uppdatera kursinformationen utifrån kurskod.
+9. Se till att all TS-kod är hård-typad.
+10. Publicera webb-applikationen.
 
 #### _Skapad av Jenny Lind, jeli2308_.
